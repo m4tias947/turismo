@@ -1,0 +1,12 @@
+footer{
+    text-align: center;
+    background-color: chocolate;
+    padding: 1em;
+    color: black;
+}
+header{
+    background-color: chocolate;
+    text-align: center;
+    padding: 2em;
+    color: black;
+}
