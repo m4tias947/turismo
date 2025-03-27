@@ -1,12 +1,32 @@
 footer{
     text-align: center;
-    background-color: chocolate;
-    padding: 1em;
-    color: black;
+    background-color: goldenrod;
+    padding: 1em !important;
+    color: white;
 }
 header{
-    background-color: chocolate;
-    text-align: center;
+    background-color: black;
     padding: 2em;
-    color: black;
+    color: white;
+}
+.nav-top{
+    background-color: goldenrod !important;
+}
+.nav-link{
+    color: goldenrod;
+    background-color: black;
+    margin: 0.3em !important;
+    border-radius: 0.3em !important;
+    font-weight: bold !important;
+    
+}
+.btn-primary{
+    background-color: black;
+    border-radius: 0.3em !important;
+    font-weight: bold !important;
+    color: goldenrod;
+    border-color: goldenrod;
+}
+img{
+    width: 50px;
 }
