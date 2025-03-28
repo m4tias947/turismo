@@ -1,12 +1,12 @@
 footer{
     text-align: center;
     background-color: goldenrod;
-    padding: 1em !important;
+    padding: 8px !important;
     color: white;
 }
 header{
     background-color: black;
-    padding: 2em;
+    padding: 1em;
     color: white;
 }
 .nav-top{
@@ -18,7 +18,7 @@ header{
     margin: 0.3em !important;
     border-radius: 0.3em !important;
     font-weight: bold !important;
-    
+   
 }
 .btn-primary{
     background-color: black;
@@ -27,6 +27,16 @@ header{
     color: goldenrod;
     border-color: goldenrod;
 }
+#icon-img{
+    width: 100px;
+}
 img{
-    width: 50px;
+    padding: 1em;
+}
+#paisagens{
+   width: 100em;
+    height: 100em;
+}
+video{
+    width: 280em;
 }
