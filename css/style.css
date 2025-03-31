@@ -40,3 +40,20 @@ img{
 video{
     width: 280em;
 }
+body{
+    margin-bottom: 5em;
+    background-color: black;
+    margin: 0;
+}
+.card{
+    margin: 2.5em;
+    background-color: black;
+    color: goldenrod;
+    border: 2px solid gold;
+}
+#divs{
+    text-align: center;
+    background-color: goldenrod;
+    padding: 2em;
+}
+
