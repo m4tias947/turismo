@@ -1,59 +1,102 @@
-footer{
-    text-align: center;
-    background-color: goldenrod;
-    padding: 8px !important;
-    color: white;
-}
-header{
+body {
+    margin: 0 !important;
+    padding: 0 !important;
+    font-family: Arial, sans-serif;
+    margin-bottom: 5em;
     background-color: black;
-    padding: 1em;
-    color: white;
 }
-.nav-top{
+
+.nav-top {
     background-color: goldenrod !important;
+    margin: 0 !important;
 }
-.nav-link{
+
+.nav-link {
     color: goldenrod;
     background-color: black;
     margin: 0.3em !important;
     border-radius: 0.3em !important;
     font-weight: bold !important;
-   
+
 }
-.btn-primary{
+
+.btn-primary {
     background-color: black;
-    border-radius: 0.3em !important;
-    font-weight: bold !important;
+    /* border-radius: 0.3em !important; */
+    /* font-weight: bold !important; */
     color: goldenrod;
     border-color: goldenrod;
 }
-#icon-img{
+
+#icon-img {
     width: 100px;
 }
-img{
-    padding: 1em;
+
+#paisagens {
+    object-fit: cover;
+    width: 110%;
+    height: 52em;
 }
-#paisagens{
-   width: 100em;
-    height: 100em;
+
+video {
+    object-fit: cover;
+    width: 110%;
+    height: 52em;
 }
-video{
-    width: 280em;
-}
-body{
-    margin-bottom: 5em;
-    background-color: black;
-    margin: 0;
-}
-.card{
-    margin: 2.5em;
+
+.card {
+    margin: 0% 1% 1% !important;
+    padding: 1% !important;
     background-color: black;
     color: goldenrod;
     border: 2px solid gold;
+
 }
-#divs{
+
+#divs {
     text-align: center;
     background-color: goldenrod;
     padding: 2em;
 }
 
+.sec-pacotes {
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    justify-content: center !important;
+    margin: 1%;
+}
+
+.card-img-top {
+    width: 280px !important;
+    text-align: center !important;
+    justify-items: center !important;
+}
+
+.sec-contato {
+    margin-bottom: 10% !important;
+    margin-left: 10% !important;
+    margin-right: 10% !important;
+    color: goldenrod;
+}
+
+footer {
+    text-align: center !important;
+    background-color: goldenrod;
+    padding: 8px !important;
+    color: white;
+}
+
+@media(min-widht:200px) and (max-widht:767px) {
+    #icon-img {
+        width: 300px;
+    }
+
+    #paisagens {
+        height: 2em;
+        width: 2px;
+    }
+
+    #mapa {
+        width: 100px;
+    }
+}
